@@ -1,0 +1,5 @@
+Building CM_UppercaseCoinName
+
+See doc/build-*.md for instructions on building CM_LowercaseCoinNamed,
+the intended-for-services, no-graphical-interface, reference
+implementation of CM_UppercaseCoinName.

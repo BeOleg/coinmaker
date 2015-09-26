@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CM_UppercaseCoinName
+Comment=CM_UppercaseCoinName P2P Cryptocurrency
+Comment[fr]=CM_UppercaseCoinName, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CM_UppercaseCoinName, eşten eşe kriptografik sanal para birimi
+Exec=CM_LowercaseCoinName-qt %u
+Terminal=false
+Type=Application
+Icon=CM_LowercaseCoinName128
+MimeType=x-scheme-handler/CM_LowercaseCoinName;
+Categories=Office;Finance;

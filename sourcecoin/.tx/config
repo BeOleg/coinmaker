@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[CM_LowercaseCoinName.tx]
+file_filter = src/qt/locale/CM_LowercaseCoinName_<lang>.ts
+source_file = src/qt/locale/CM_LowercaseCoinName_en.ts
+source_lang = en

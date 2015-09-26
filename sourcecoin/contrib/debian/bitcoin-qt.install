@@ -1,0 +1,6 @@
+usr/local/bin/CM_LowercaseCoinName-qt usr/bin
+share/pixmaps/CM_LowercaseCoinName32.xpm usr/share/pixmaps
+share/pixmaps/CM_LowercaseCoinName16.xpm usr/share/pixmaps
+share/pixmaps/CM_LowercaseCoinName128.png usr/share/pixmaps
+debian/CM_LowercaseCoinName-qt.desktop usr/share/applications
+debian/CM_LowercaseCoinName-qt.protocol usr/share/kde4/services/
