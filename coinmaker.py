@@ -10,3 +10,6 @@ __version__ = "3.0"
 __maintainer__ = "Spencer Dupre"
 __email__ = "spencer.dupre@gmail.com"
 __status__ = "Alpha"
+
+from .utils import copy_anything, replace, rename
+from .settings import SETTINGS
