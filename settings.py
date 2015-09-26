@@ -6,6 +6,6 @@ class SETTINGS(object):
     source_dir = './sourcecoin'
     working_dir = './working'
     autogen_command = "./autogen.sh"
-    config_command="""./configure --with-incompatible-bdb"""
+    config_command="""./configure"""
     make_command="""make -s"""
     os_ext = ""
