@@ -7,6 +7,7 @@ from .settings import SETTINGS
 import os
 import uuid
 import shutil
+import argparse
 
 __author__ = "Spencer Dupre"
 __copyright__ = "Copyright 2015"
@@ -133,7 +134,6 @@ def create(coin_name="Bitcoin",
 
 
 def main():
-    import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('-n',
                         '--coin-name',
