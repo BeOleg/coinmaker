@@ -59,6 +59,8 @@ def create(coin_name="Bitcoin",
            icon_ico=None,
            icon_png=None,
            ):
+    """ The main function that creates coins. This function modifies
+        the source coins sourcecode to fit the provided options."""
 
     blocks_per_day = 60*60*24 / block_time
 
