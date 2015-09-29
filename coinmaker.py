@@ -2,8 +2,8 @@
 """
 This script produces new altcoins with specified parameters.
 """
-from .utils import copy_anything, replace, rename
-from .settings import SETTINGS
+from utils import copy_anything, replace, rename
+from settings import SETTINGS
 import os
 import uuid
 import shutil
