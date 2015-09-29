@@ -64,12 +64,15 @@ def create(coin_name="Bitcoin",
 
     blocks_per_day = 60*60*24 / block_time
 
+    # Create working directory if doesn't exist
     if not os.path.exists(SETTINGS.working_dir):
         os.makedirs(SETTINGS.working_dir)
 
+    # Coin source is nested in a random directory, for uniqueness
     random_dir = os.path.join(SETTINGS.working_dir, coin_uuid)
     os.makedirs(random_dir)
 
+    # Copy the sourcecoin source into randomdir
     copy_anything(SETTINGS.source_dir, os.path.join(random_dir, coin_name))
     os.chdir(os.path.join(random_dir, coin_name))
     coindir = os.getcwd()
